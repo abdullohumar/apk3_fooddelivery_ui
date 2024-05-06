@@ -18,8 +18,7 @@ class ScaleAnimatedWidget extends StatefulWidget {
   });
 
   @override
-  // ignore: library_private_types_in_public_api
-  _ScaleAnimatedWidgetState createState() => _ScaleAnimatedWidgetState();
+  State<ScaleAnimatedWidget> createState() => _ScaleAnimatedWidgetState();
 }
 
 class _ScaleAnimatedWidgetState extends State<ScaleAnimatedWidget> with SingleTickerProviderStateMixin {

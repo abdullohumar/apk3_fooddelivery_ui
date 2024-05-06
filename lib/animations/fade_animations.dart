@@ -5,7 +5,7 @@ class FadeAnimation extends StatelessWidget {
   final double delay;
   final Widget child;
 
-  const FadeAnimation({ required this.delay, required this.child});
+  const FadeAnimation({super.key,  required this.delay, required this.child});
 
   @override
   Widget build(BuildContext context) {
